@@ -1,4 +1,4 @@
-﻿namespace BubbleSortProceduralProg
+﻿namespace Task5._1_BubbleSort_
 {
     partial class Form1
     {
@@ -34,20 +34,19 @@
             // 
             // button1
             // 
-            button1.Location = new Point(67, 63);
+            button1.Location = new Point(46, 46);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 0;
-            button1.Text = "Sort";
+            button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
             // 
             // listBoxResults
             // 
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.Location = new Point(199, 112);
+            listBoxResults.Location = new Point(151, 100);
             listBoxResults.Name = "listBoxResults";
-            listBoxResults.Size = new Size(569, 304);
+            listBoxResults.Size = new Size(637, 324);
             listBoxResults.TabIndex = 1;
             // 
             // Form1

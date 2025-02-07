@@ -1,4 +1,4 @@
-namespace BubbleSortProceduralProg
+namespace Task5._1_BubbleSort_
 {
     public partial class Form1 : Form
     {
@@ -6,13 +6,14 @@ namespace BubbleSortProceduralProg
         {
             InitializeComponent();
         }
+
         public int[] bubbleSort(int[] arr)
         {
-            int n = arr.Length;    
+            int n = arr.Length;
             for (int i = 0; i < n - 1; i++)
-            {    
+            {
                 for (int j = 0; j < n - i - 1; j++)
-                {   
+                {
                     if (arr[j] > arr[j + 1])
                     {
                         int temp = arr[j];
@@ -23,7 +24,7 @@ namespace BubbleSortProceduralProg
 
             }
             return arr;
-        }        
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
