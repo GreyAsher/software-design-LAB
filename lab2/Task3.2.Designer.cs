@@ -1,6 +1,6 @@
 ﻿namespace lab2
 {
-    partial class Lab2Task3
+    partial class Lab2Task32
     {
         /// <summary>
         /// Required designer variable.
@@ -28,46 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtInput = new TextBox();
             btnCalculate = new Button();
+            txtExponent = new TextBox();
+            txtBase = new TextBox();
             lblResult = new Label();
             SuspendLayout();
             // 
-            // txtInput
-            // 
-            txtInput.Location = new Point(76, 54);
-            txtInput.Name = "txtInput";
-            txtInput.Size = new Size(125, 27);
-            txtInput.TabIndex = 0;
-            // 
             // btnCalculate
             // 
-            btnCalculate.Location = new Point(86, 133);
+            btnCalculate.Location = new Point(132, 182);
             btnCalculate.Name = "btnCalculate";
             btnCalculate.Size = new Size(94, 29);
-            btnCalculate.TabIndex = 1;
+            btnCalculate.TabIndex = 0;
             btnCalculate.Text = "Calculate";
             btnCalculate.UseVisualStyleBackColor = true;
             btnCalculate.Click += btnCalculate_Click;
             // 
+            // txtExponent
+            // 
+            txtExponent.Location = new Point(116, 130);
+            txtExponent.Name = "txtExponent";
+            txtExponent.Size = new Size(125, 27);
+            txtExponent.TabIndex = 1;
+            // 
+            // txtBase
+            // 
+            txtBase.Location = new Point(116, 76);
+            txtBase.Name = "txtBase";
+            txtBase.Size = new Size(125, 27);
+            txtBase.TabIndex = 2;
+            // 
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(101, 212);
+            lblResult.Location = new Point(144, 260);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(57, 20);
-            lblResult.TabIndex = 2;
-            lblResult.Text = "Answer";
+            lblResult.Size = new Size(49, 20);
+            lblResult.TabIndex = 3;
+            lblResult.Text = "Result";
             // 
-            // Lab2Task3
+            // Lab2Task32
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(340, 450);
+            ClientSize = new Size(395, 450);
             Controls.Add(lblResult);
+            Controls.Add(txtBase);
+            Controls.Add(txtExponent);
             Controls.Add(btnCalculate);
-            Controls.Add(txtInput);
-            Name = "Lab2Task3";
+            Name = "Lab2Task32";
             Text = "Task3";
             ResumeLayout(false);
             PerformLayout();
@@ -75,8 +84,9 @@
 
         #endregion
 
-        private TextBox txtInput;
         private Button btnCalculate;
+        private TextBox txtExponent;
+        private TextBox txtBase;
         private Label lblResult;
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace lab2
 {
-    public partial class Lab2Task3 : Form
+    public partial class Lab2Task31 : Form
     {
-        public Lab2Task3()
+        public Lab2Task31()
         {
             InitializeComponent();
         }
